@@ -17,7 +17,7 @@ export class CameraPage {
     addPhotoToGallery(){
       this.photoService.addNewToGallery();
     }
-
+// Camara
     public async showActionSheet(photo: UserPhoto, position: number) {
       const actionSheet = await this.actionSheetController.create({
         header: 'Photos',

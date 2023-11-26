@@ -8,7 +8,7 @@ import { AlertController } from '@ionic/angular';
 })
 export class Tab1Page {
   constructor(private alertController: AlertController) {}
-  opcionSeleccionada: string = 'aboutme'; // Opción por defecto
+  opcionSeleccionada: string = 'aboutme'; //  defecto
 
   mostrarContenido(opcion: string) {
     this.opcionSeleccionada = opcion;
