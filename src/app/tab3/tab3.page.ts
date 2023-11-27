@@ -21,20 +21,20 @@ export class Tab3Page {
     // Aquí puedes definir la información correspondiente a cada ícono
     switch (opcion) {
       case 'WhatsApp':
-        mensaje = 'Número de WhatsApp: +593 99 115 5259';
+        mensaje = 'Número de WhatsApp: +593 96 356 2745';
         headerColor = 'success';
         break;
       case 'LinkedIn':
         mensaje =
-          'Perfil de LinkedIn: https://www.linkedin.com/in/nestor-david-chumania-chumaña-2ab23a252/';
+          'Perfil de LinkedIn: https://www.linkedin.com/in/salo-silva-baba01200/';
         headerColor = 'success';
         break;
       case 'GitHub':
-        mensaje = 'Perfil de GitHub: https://github.com/RotsenCH';
+        mensaje = 'Perfil de GitHub: https://github.com/Salo-Quispe';
         headerColor = 'success';
         break;
       case 'Email':
-        mensaje = 'Correo electrónico: nestorchumania@gmail.com';
+        mensaje = 'Correo electrónico: saloquispe211@gmail.com';
         headerColor = 'success';
         break;
       default:
